@@ -18,10 +18,7 @@ app.use(cors({
 
 app.use(express.json());
 
-// 🔥 FIX 2: Health route (fixes "Cannot GET /")
-app.get("/", (req, res) => {
-  res.send("API is running 🚀");
-});
+// Removed health route so React static files can be served correctly on '/'
 
 // MongoDB connection
 mongoose.connect(process.env.MONGO_URI)
