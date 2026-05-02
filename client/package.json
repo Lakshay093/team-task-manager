@@ -14,7 +14,10 @@
     "socket.io-client": "^4.7.2"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "autoprefixer": "^10.5.0",
