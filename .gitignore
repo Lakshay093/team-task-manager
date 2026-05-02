@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# production
+client/build/
+
+# environment variables
+.env
+server/.env
+client/.env
+
+# IDEs and OS files
+.vscode/
+.DS_Store
+*.pem
